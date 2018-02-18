@@ -4,7 +4,7 @@ export class Greeter{
         
     }
 
-    greet()
+    greet() :string 
     {
         return '<h1>' + this.greeting + '</h1>'
     }
